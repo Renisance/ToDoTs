@@ -6,3 +6,4 @@ const getData = async (url) => {
     return await res.json();
 };
 export { getData };
+dsadasd

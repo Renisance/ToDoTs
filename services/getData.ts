@@ -8,4 +8,4 @@ const getData = async (url:string):Promise<string> => {
     return await res.json();
 };
 
-export {getData}
+export {getData}wdwdawdwdwdwd
