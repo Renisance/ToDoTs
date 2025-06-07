@@ -1,0 +1,53 @@
+.cont{
+    margin: 50px;
+    width: 400px;
+
+}
+.cont-title{
+    margin-top: 5px;
+}
+.cont-title__btn{
+    background-color: blanchedalmond;
+}
+
+.form__inp{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/*Стилизация кнопок*/
+.btn-primary{
+    margin-left: 10px;
+}
+.task-actions {
+    margin-left: 10px;
+}
+.edit-btn {
+    background: #6c966d;
+    color: white;
+    width: 90px;
+    font-size: 0.7em;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 15px;
+}
+.remove-btn {
+    background: #b68f8d;
+    color: white;
+    width: 60px;
+    font-size: 0.7em;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 15px;
+}
+.edit-input {
+    width: 130px;
+    height: 25px;
+    margin: 15px;
+    
+}
+ul {
+    margin: 15px;
+}
