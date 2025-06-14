@@ -1,5 +1,5 @@
 export {createBtnDelete}
-import {funcLocalStorage, ListItem} from "../services/index.ts";
+import {funcLocalStorage, ListItem} from "../services/index";
 
 //Создание кнопки  "Удалить"
  function createBtnDelete(li: HTMLElement, arr:ListItem[]) {   

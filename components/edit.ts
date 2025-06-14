@@ -1,5 +1,5 @@
-import {funcLocalStorage, ListItem} from "../services/index.ts";
-import {createBtnDelete} from "./delete.ts";
+import {funcLocalStorage, ListItem} from "../services/index";
+import {createBtnDelete} from "./delete";
 
 
 //Создание кнопки "Редактировать"

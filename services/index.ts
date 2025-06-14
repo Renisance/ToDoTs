@@ -1,11 +1,11 @@
-// import {createBtnDelete} from "../components/delete.ts";
-// import {editListItem} from "../components/edit.ts";
+import {createBtnDelete} from "../components/delete";
+import {editListItem} from "../components/edit";
 export { funcLocalStorage };
 export interface ListItem {
     id: string;
     text: string;
 }
-import {createShowList} from "../components/createList.ts";
+import {createShowList} from "../components/createList";
 // export {funcLocalStorage}
 
 export interface ListItem {

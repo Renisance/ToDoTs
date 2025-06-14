@@ -1,7 +1,7 @@
 export {createShowList}
-import {editListItem} from "./edit.ts";
-import {createBtnDelete} from "./delete.ts";
-import {ListItem} from "e:/TodoListTs/services/index.ts";
+import {editListItem} from "./edit";
+import {createBtnDelete} from "./delete";
+import {ListItem} from "../services/index";
 
 
 
