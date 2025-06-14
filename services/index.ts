@@ -1,5 +1,5 @@
-// import {createBtnDelete} from "../components/delete.ts";
-// import {editListItem} from "../components/edit.ts";
+import {createBtnDelete} from "../components/delete.ts";
+import {editListItem} from "../components/edit.ts";
 export { funcLocalStorage };
 export interface ListItem {
     id: string;
