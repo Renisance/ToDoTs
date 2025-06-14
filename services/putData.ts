@@ -1,4 +1,4 @@
-import {postData} from "./postData.js";
+// import {postData} from "./postData.ts";
 // http://localhost:3000/task/${comletedItem.id}
 function putData(url:string, data:string): void {
     fetch(url, {

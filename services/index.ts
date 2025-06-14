@@ -1,7 +1,12 @@
-import {createBtnDelete} from "../components/delete.js";
-import {editListItem} from "../components/edit.js";
-import {createShowList} from "../components/createList.js";
-export {funcLocalStorage}
+// import {createBtnDelete} from "../components/delete.ts";
+// import {editListItem} from "../components/edit.ts";
+export { funcLocalStorage };
+export interface ListItem {
+    id: string;
+    text: string;
+}
+import {createShowList} from "../components/createList.ts";
+// export {funcLocalStorage}
 
 export interface ListItem {
     id:  string;

@@ -1,4 +1,4 @@
-import {postData} from "../services/postData.js";
+// import {postData} from "../services/postData.ts";
 // `http://localhost:3000/task/${deleteItem.id}
 function deleteData(url:string): void {
     fetch(url, {
