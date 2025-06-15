@@ -29,9 +29,19 @@ function editListItem(li:HTMLElement, arr:ListItem[], item:ListItem): void {
         ///
             const newText = inputEditItem.value;
             li.textContent = newText;
-            const index = arr.findIndex(item => item.id === li.id);
-            if(index !== -1) {
-                arr[index].text = newText;
+
+            // const index = arr.findIndex(item => item.id === li.id);
+            // if(index === -1) {
+            //     arr[index].text = newText;
+            let index = -1;
+            for (let i = 0; i < arr.length; i++) {
+              if (arr[i].id.toString() === li.id) {
+                index = i;
+                break;
+              }
+            }
+            if (index !== -1) {
+              arr[index].text = newText
                 funcLocalStorage(arr);
             }
             inputEditItem.remove();
